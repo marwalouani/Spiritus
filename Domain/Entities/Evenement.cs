@@ -9,8 +9,8 @@ namespace Domain.Entities
 {
    public class Evenement
     {
-        int IdEvent;
-       public String NomEvent;
+        public  int IdEvent;
+        public String NomEvent;
         public DateTime DateEventDebut;
         public DateTime DateEventFin;
         public String LocationEvent;
@@ -19,5 +19,8 @@ namespace Domain.Entities
         [DataType(DataType.ImageUrl), Required(ErrorMessage = "la proprieté image est obligatoire")]
         public String ImageEvent;
         public enum Methodepaiement { Online, BoxOffice }
+        public ICollection<Ticket> Tickets { get; set; }
+        public Team Team { get; set; }
+        public ICollection<Feedback> Feedbacks { get; set; }
     }
 }

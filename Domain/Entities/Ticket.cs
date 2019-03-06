@@ -12,6 +12,6 @@ namespace Domain.Entities
         public float Prix;
         //id participant
         //id evenement
-
+        public Evenement Evenement { get; set; }
     }
 }

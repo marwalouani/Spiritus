@@ -13,7 +13,11 @@ namespace Domain.Entities
         //id president
         // list id organisateur
         //id event
-        
+        ICollection<Evenement> EventTeam { get; set; }
+        ICollection<User> Organizers { get; set; }
+         public User President { get; set; } 
+
+
 
     }
 }

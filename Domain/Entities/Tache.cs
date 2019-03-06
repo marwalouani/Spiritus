@@ -16,6 +16,6 @@ namespace Domain.Entities
         //id team
         //id president
         //id organisateur
-
+        public User Organizer { get; set; }
     }
 }

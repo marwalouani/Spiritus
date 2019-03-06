@@ -13,5 +13,7 @@ namespace Domain.Entities
         public String DescFB;
         //id event;
         //id participant
+        public User Participant { get; set; }
+        public Evenement Evenement { get; set; }
     }
 }

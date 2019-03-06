@@ -14,6 +14,8 @@ namespace Domain.Entities
         public String Role;
         public String Adresse;
 
+        ICollection<Tache> Taches { get; set; }
+        ICollection<Feedback> Feedbacks { get; set; }
 
     }
 }

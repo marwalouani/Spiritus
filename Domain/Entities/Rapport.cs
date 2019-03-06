@@ -15,5 +15,6 @@ namespace Domain.Entities
         //id evenement
         [DataType(DataType.ImageUrl)]
         public String ImageRapport;
+        public Evenement Event { get;set; }
     }
 }

@@ -50,7 +50,6 @@
   <ItemGroup>
     <Compile Include="Entities\Evenement.cs" />
     <Compile Include="Entities\Feedback.cs" />
-    <Compile Include="Entities\Org.cs" />
     <Compile Include="Entities\Rapport.cs" />
     <Compile Include="Entities\Recomendation.cs" />
     <Compile Include="Entities\Tache.cs" />
